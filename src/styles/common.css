@@ -1,0 +1,32 @@
+.corner-decorate {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  box-sizing: border-box;
+  border: 2px solid #0efcff;
+}
+
+.corner-decorate-left-top {
+  left: 0;
+  top: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.corner-decorate-left-bottom {
+  left: 0;
+  bottom: 0;
+  border-right: 0;
+  border-top: 0;
+}
+.corner-decorate-right-top {
+  right: 0;
+  top: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+.corner-decorate-right-bottom {
+  right: 0;
+  bottom: 0;
+  border-left: 0;
+  border-top: 0;
+}
