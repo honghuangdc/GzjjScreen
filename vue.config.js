@@ -4,7 +4,7 @@ function resolve (dir) {
 }
 module.exports = {
   
-  publicPath: './',  // 基本路径
+  publicPath: process.env.NODE_ENV === "production" ? "/gzjjscreen" : "/", // 基本路径
   outputDir: 'dist',  // 输出文件目录
   lintOnSave: true,  // eslint-loader 是否在保存的时候检查
   
